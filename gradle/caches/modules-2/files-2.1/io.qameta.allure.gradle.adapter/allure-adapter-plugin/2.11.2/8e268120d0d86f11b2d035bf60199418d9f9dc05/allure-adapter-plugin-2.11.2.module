@@ -1,0 +1,123 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.qameta.allure.gradle.adapter",
+    "module": "allure-adapter-plugin",
+    "version": "2.11.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8.3",
+      "buildId": "pybvaxncrndzlpic3ely7uhszm"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "io.qameta.allure.gradle.base",
+          "module": "allure-base-plugin",
+          "version": {
+            "requires": "2.11.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "allure-adapter-plugin-2.11.2.jar",
+          "url": "allure-adapter-plugin-2.11.2.jar",
+          "size": 170434,
+          "sha512": "c55ee0fc532bbd67d2f5b675b4b3217529e0d2a21c949047eac9c5cc3e445a80d01a043704ecdb6925a6b3567202c51de1082e3da7f0b1658cfa4dac0b705447",
+          "sha256": "27f5fd36897d2f929e767af2b135eafdc7f840c1c074e22ed99b68a7d74f2cd5",
+          "sha1": "b782a9cc95c454762e5b82c35bcdc2462f70ba3e",
+          "md5": "00ff6d7fbae40943060266fdfad60b82"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "io.qameta.allure.gradle.base",
+          "module": "allure-base-plugin",
+          "version": {
+            "requires": "2.11.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "allure-adapter-plugin-2.11.2.jar",
+          "url": "allure-adapter-plugin-2.11.2.jar",
+          "size": 170434,
+          "sha512": "c55ee0fc532bbd67d2f5b675b4b3217529e0d2a21c949047eac9c5cc3e445a80d01a043704ecdb6925a6b3567202c51de1082e3da7f0b1658cfa4dac0b705447",
+          "sha256": "27f5fd36897d2f929e767af2b135eafdc7f840c1c074e22ed99b68a7d74f2cd5",
+          "sha1": "b782a9cc95c454762e5b82c35bcdc2462f70ba3e",
+          "md5": "00ff6d7fbae40943060266fdfad60b82"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "allure-adapter-plugin-2.11.2-sources.jar",
+          "url": "allure-adapter-plugin-2.11.2-sources.jar",
+          "size": 16962,
+          "sha512": "377fc22a11adbcc8c228dfdf070ff5cdd85a887163099b54cd5a8fc3c4df477295a05cc63d4b5a71bf531feb3bb02bac4215d77ef32fe59df276fa5fada785a0",
+          "sha256": "d8261694ee429d5007a16a392f7895dceda3c44e5d54cd85153d363bf5a7455b",
+          "sha1": "8cc08a8a6b9d6e88f645697027a48ad96589010e",
+          "md5": "bdb5315d1be75ae8203c3a12b1fb064b"
+        }
+      ]
+    },
+    {
+      "name": "javadocMainElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "allure-adapter-plugin-2.11.2-javadoc.jar",
+          "url": "allure-adapter-plugin-2.11.2-javadoc.jar",
+          "size": 372160,
+          "sha512": "66cf88daee02e84511c8a71bcba4268106cd8eb43deb16b7b652fc314d01a9b92be69ccd11d1a22774b1531da9e6a34b4a74d502284f4d1172f3402e70c10169",
+          "sha256": "ac4e8a4e5d35a25109c88563466df3c4452a23439bec1918d9ecc9009f14b29d",
+          "sha1": "4b725953f75d5224ccb46afaa3dc5a738b3c7556",
+          "md5": "63b0cfc5640f2ef5d000cd801635adce"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,137 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.qameta.allure.gradle.allure",
+    "module": "allure-plugin",
+    "version": "2.11.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8.3",
+      "buildId": "pybvaxncrndzlpic3ely7uhszm"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "io.qameta.allure.gradle.adapter",
+          "module": "allure-adapter-plugin",
+          "version": {
+            "requires": "2.11.2"
+          }
+        },
+        {
+          "group": "io.qameta.allure.gradle.report",
+          "module": "allure-report-plugin",
+          "version": {
+            "requires": "2.11.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "allure-plugin-2.11.2.jar",
+          "url": "allure-plugin-2.11.2.jar",
+          "size": 6047,
+          "sha512": "169ce8795f980df633c41f5de45a07039b73f875f039945c00d7c52b532ffbac7870dd0febbdee6a1b3c720907b0207c4511bc353bd5d0d36f7f6bb159b4d5df",
+          "sha256": "df4a85836e3d232acf9d7ab0b6645542b47da50c726359480334f848f4490825",
+          "sha1": "1c58f29e891240c04fcdb5d701c1af57b160ea8a",
+          "md5": "daa901ad2337f187520c7ae2a738db64"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "io.qameta.allure.gradle.adapter",
+          "module": "allure-adapter-plugin",
+          "version": {
+            "requires": "2.11.2"
+          }
+        },
+        {
+          "group": "io.qameta.allure.gradle.report",
+          "module": "allure-report-plugin",
+          "version": {
+            "requires": "2.11.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "allure-plugin-2.11.2.jar",
+          "url": "allure-plugin-2.11.2.jar",
+          "size": 6047,
+          "sha512": "169ce8795f980df633c41f5de45a07039b73f875f039945c00d7c52b532ffbac7870dd0febbdee6a1b3c720907b0207c4511bc353bd5d0d36f7f6bb159b4d5df",
+          "sha256": "df4a85836e3d232acf9d7ab0b6645542b47da50c726359480334f848f4490825",
+          "sha1": "1c58f29e891240c04fcdb5d701c1af57b160ea8a",
+          "md5": "daa901ad2337f187520c7ae2a738db64"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "allure-plugin-2.11.2-sources.jar",
+          "url": "allure-plugin-2.11.2-sources.jar",
+          "size": 1299,
+          "sha512": "6638f7c044036830227b11584848265bafa3813ddcd0589fb0c47361d5c689648489f49d00be69a0d35fb070ce08cc2cf576730dae67bbb415d4e6b5f58ddf8d",
+          "sha256": "a09c5528d21390e0b90fbfffa64bc148d3150d9688ccea49a8c8041cd9650e87",
+          "sha1": "53fdb5fa07bebb00aeb7bc8b409e7de8075ee16e",
+          "md5": "06c1f6925712a1b7579e557ccb3db357"
+        }
+      ]
+    },
+    {
+      "name": "javadocMainElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "allure-plugin-2.11.2-javadoc.jar",
+          "url": "allure-plugin-2.11.2-javadoc.jar",
+          "size": 265385,
+          "sha512": "5132a37d9ca97a74fbe172d6ace32615decd7740a52dd2a81eb47503962cdd444b1cb8a981e3cdc316576c38a690b7e3663e93e7bb999f0cde1142041ec76c70",
+          "sha256": "56eae37088aa9b9322ae8c3001106ca1ebc2fece835022d8a4704af14c172fac",
+          "sha1": "c6fb3c3170979f4403093498847dc66ac856b563",
+          "md5": "cecd9bc1861d304b1d481fdfa193eff5"
+        }
+      ]
+    }
+  ]
+}

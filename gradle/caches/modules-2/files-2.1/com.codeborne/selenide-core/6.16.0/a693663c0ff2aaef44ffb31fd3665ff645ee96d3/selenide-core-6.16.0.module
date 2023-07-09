@@ -1,0 +1,260 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.codeborne",
+    "module": "selenide-core",
+    "version": "6.16.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.seleniumhq.selenium",
+          "module": "selenium-java",
+          "version": {
+            "requires": "4.10.0"
+          },
+          "excludes": [
+            {
+              "group": "org.slf4j",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "2.0.7"
+          }
+        },
+        {
+          "group": "org.opentest4j",
+          "module": "opentest4j",
+          "version": {
+            "requires": "1.2.0"
+          }
+        },
+        {
+          "group": "io.github.bonigarcia",
+          "module": "webdrivermanager",
+          "version": {
+            "requires": "5.4.0"
+          },
+          "excludes": [
+            {
+              "group": "org.slf4j",
+              "module": "*"
+            },
+            {
+              "group": "org.rauschig",
+              "module": "*"
+            },
+            {
+              "group": "org.apache.httpcomponents.core5",
+              "module": "*"
+            },
+            {
+              "group": "commons-lang",
+              "module": "*"
+            },
+            {
+              "group": "org.apache.httpcomponents.client5",
+              "module": "*"
+            },
+            {
+              "group": "com.github.docker-java",
+              "module": "*"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "selenide-core-6.16.0.jar",
+          "url": "selenide-core-6.16.0.jar",
+          "size": 589674,
+          "sha512": "19b6f23a64b096e770fef2651049c7e38774f7a89d0f7b74c62684de35da9a001a83038252ad9912b4fa5484769783af550f6007bc87059058b74533f654f040",
+          "sha256": "01e6c9a5134cf4d6138cd762cfa8b2ac0f8ec532a329af189995e1ec399f4315",
+          "sha1": "26fbea701bdabc98a326a3bd8dee3a2e6f4b4465",
+          "md5": "e06699ba8ecc11dfb32c509767b1e268"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.guava",
+          "module": "guava",
+          "version": {
+            "requires": "32.1.0-jre"
+          }
+        },
+        {
+          "group": "org.apache.commons",
+          "module": "commons-lang3",
+          "version": {
+            "requires": "3.12.0"
+          }
+        },
+        {
+          "group": "commons-io",
+          "module": "commons-io",
+          "version": {
+            "requires": "2.13.0"
+          }
+        },
+        {
+          "group": "org.apache.commons",
+          "module": "commons-compress",
+          "version": {
+            "requires": "1.23.0"
+          },
+          "reason": "used by webdrivermanager"
+        },
+        {
+          "group": "org.apache.httpcomponents.client5",
+          "module": "httpclient5",
+          "version": {
+            "requires": "5.2.1"
+          }
+        },
+        {
+          "group": "org.seleniumhq.selenium",
+          "module": "selenium-java",
+          "version": {
+            "requires": "4.10.0"
+          },
+          "excludes": [
+            {
+              "group": "org.slf4j",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "2.0.7"
+          }
+        },
+        {
+          "group": "org.opentest4j",
+          "module": "opentest4j",
+          "version": {
+            "requires": "1.2.0"
+          }
+        },
+        {
+          "group": "io.github.bonigarcia",
+          "module": "webdrivermanager",
+          "version": {
+            "requires": "5.4.0"
+          },
+          "excludes": [
+            {
+              "group": "org.slf4j",
+              "module": "*"
+            },
+            {
+              "group": "org.rauschig",
+              "module": "*"
+            },
+            {
+              "group": "org.apache.httpcomponents.core5",
+              "module": "*"
+            },
+            {
+              "group": "commons-lang",
+              "module": "*"
+            },
+            {
+              "group": "org.apache.httpcomponents.client5",
+              "module": "*"
+            },
+            {
+              "group": "com.github.docker-java",
+              "module": "*"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "selenide-core-6.16.0.jar",
+          "url": "selenide-core-6.16.0.jar",
+          "size": 589674,
+          "sha512": "19b6f23a64b096e770fef2651049c7e38774f7a89d0f7b74c62684de35da9a001a83038252ad9912b4fa5484769783af550f6007bc87059058b74533f654f040",
+          "sha256": "01e6c9a5134cf4d6138cd762cfa8b2ac0f8ec532a329af189995e1ec399f4315",
+          "sha1": "26fbea701bdabc98a326a3bd8dee3a2e6f4b4465",
+          "md5": "e06699ba8ecc11dfb32c509767b1e268"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "selenide-core-6.16.0-javadoc.jar",
+          "url": "selenide-core-6.16.0-javadoc.jar",
+          "size": 1360172,
+          "sha512": "3a6f69eb6ae63d0c1282fb20886fdd18605cce4ed3f542bbeac5b8826052dd278cafe3cac0e459aea297819d7c0cef0bd7d040a8167f4c2f145b00a5e36005fe",
+          "sha256": "1822fe1594eb19d7c8512cfe6f742a8ed8f5e74f6e3d442639c3f76bb28c73b7",
+          "sha1": "c43fabe7082154fe1cb20f56d034e7e625a988f8",
+          "md5": "0f74b2d2c2fda36a2d2802b15c35d9de"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "selenide-core-6.16.0-sources.jar",
+          "url": "selenide-core-6.16.0-sources.jar",
+          "size": 320856,
+          "sha512": "6cd707e994ec6cf59e7870b1cc442efcbba8ad67a0adcb785a257e05ecd4e648fe1f0efa10cb0d2d17e7a452dde97681074465cc80ab6a0a7c50e35873e90c80",
+          "sha256": "e25c3206a3bc93712b70cac1283ae7550f0454b7c353596b1e84506d65826c37",
+          "sha1": "dc2567c73869675e3011e823476f9d2b059ce1a8",
+          "md5": "3e38039bcf05eaa50488b708554865e7"
+        }
+      ]
+    }
+  ]
+}

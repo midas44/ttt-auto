@@ -1,2 +1,2 @@
-# ttt-auto-proto3
-# TTT Automation Testing Framework Prototype 3 
+# ttt-auto
+# TTT Automation Testing Framework
